@@ -450,7 +450,7 @@ body {
         height: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         position: relative;
         background: linear-gradient(102.04deg, rgba(255, 255, 255, 0.05) -6.52%, rgba(255, 255, 255, 0) 110.68%);
     }
@@ -459,7 +459,7 @@ body {
     /* portfolio list wrap */
     .port_list {
         z-index: 2;
-        width: 40%;
+        width: 45%;
         height: calc((100vw / 3)-2%);
         background-color: rgba(50, 116, 109, 0.8);
         display: flex;
