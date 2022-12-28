@@ -970,7 +970,7 @@ body {
     .review_text_wrap {
         width: 100%;
         height: auto;
-        gap: 5vw;
+        gap: 10vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
