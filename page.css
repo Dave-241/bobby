@@ -1235,7 +1235,7 @@ body {
 
     .news_all_wrap {
         width: 100%;
-        height: auto;
+        height: 40vh;
         display: flex;
         justify-content: space-between;
         padding: 0;
@@ -1244,7 +1244,7 @@ body {
     }
 
     .news_wrap {
-        height: auto;
+        height: 100%;
         width: 100%;
         justify-content: space-around;
         gap: 20px;
