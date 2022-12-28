@@ -165,6 +165,7 @@ body {
         border-bottom: 1px solid whitesmoke;
         text-align: center;
         padding-bottom: 10px;
+        margin-bottom: 20px;
         font-size: 20px;
         text-transform: capitalize;
         width: 100%;
@@ -1285,7 +1286,7 @@ body {
     }
 
     .news_btn {
-        width: 30%;
+        width: 35%;
         background-color: rgba(158, 197, 171, 0.4);
         color: rgba(255, 255, 255, 0.672);
         font-size: 20px;
