@@ -335,7 +335,7 @@ body {
     .hero_ctn_wrap {
         width: 100%;
         display: flex;
-        gap: 20px;
+        gap: 10px;
         justify-content: center;
         padding-top: 10px;
         align-items: center;
@@ -344,7 +344,7 @@ body {
     .p_ctn_btn {
         color: white;
         background-color: #9EC5AB;
-        padding: 3% 6%;
+        padding: 3% 5%;
         border-radius: 5px;
     }
 
@@ -352,7 +352,7 @@ body {
         color: white;
         background-color: transparent;
         border: 1px solid white;
-        padding: 3% 6%;
+        padding: 3% 5%;
         border-radius: 5px;
     }
 }
@@ -439,7 +439,7 @@ body {
     /* port main wrap */
 
     .all_port_wrap {
-        height: 100vw;
+        height: 130vw;
         width: 100%;
         margin-top: 40px;
         padding: 0 2%;
@@ -459,7 +459,7 @@ body {
     /* portfolio list wrap */
     .port_list {
         z-index: 2;
-        width: 46%;
+        width: 40%;
         height: calc((100vw / 3)-2%);
         background-color: rgba(50, 116, 109, 0.8);
         display: flex;
@@ -708,6 +708,7 @@ body {
 .mission_img_wrap {
     width: 30vw;
     height: 60vh;
+    padding-bottom: 10px;
 }
 
 .mission_img {
@@ -718,7 +719,7 @@ body {
 .mission_txt_wrap {
     display: flex;
     justify-content: space-around;
-    height: 50vh;
+    height: auto;
     flex-direction: column;
 }
 
@@ -733,6 +734,7 @@ body {
 .mission_txt {
     color: rgba(255, 255, 255, 0.672);
     font-size: 15px;
+    padding-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
