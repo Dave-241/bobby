@@ -1303,3 +1303,123 @@ body {
 
 
 }
+
+/* fotter styling */
+/* desktop styling */
+.fotter_all_wrap {
+    width: 100%;
+    padding: 0 8%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotter_wrap {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_header {
+    color: white;
+    font-size: 17px;
+}
+
+.footer_links:hover {
+    color: white;
+}
+
+.footer_links {
+    color: rgba(255, 255, 255, 0.672);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+}
+
+/* mobile styling */
+@media screen and (max-width:800px) {
+    .fotter_all_wrap {
+        width: 100%;
+        padding: 0;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .f1 {
+        order: 1;
+    }
+
+    .f2 {
+        order: 3;
+    }
+
+    .f3 {
+        order: 2;
+    }
+
+    .f4 {
+        order: 4;
+    }
+
+    .fotter_wrap {
+        width: 50%;
+        padding-top: 40px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_header {
+        color: white;
+        font-size: 15px;
+    }
+
+    .footer_links:hover {
+        color: white;
+    }
+
+    .footer_links {
+        color: rgba(255, 255, 255, 0.672);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 13px;
+    }
+
+}
+
+/* copyright styling */
+/* desktop styling */
+.copyright_wrap {
+    padding: 0 8%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.copyright_text {
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* mobile styling */
+@media screen and (max-width:800px) {
+    .copyright_wrap {
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .copyright_text {
+        font-size: 15px;
+        padding-top: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+}
